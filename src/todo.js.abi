@@ -1,0 +1,33 @@
+{
+  "lang": "javascript",
+  "version": "1.0.0",
+  "abi": [
+    {
+      "name": "can_update",
+      "args": [
+        "string"
+      ],
+      "amountLimit": []
+    },
+    {
+      "name": "add",
+      "args": [
+        "string",
+        "string"
+      ],
+      "amountLimit": []
+    },
+    {
+      "name": "remove",
+      "args": [
+        "string"
+      ],
+      "amountLimit": []
+    },
+    {
+      "name": "getAllTasks",
+      "args": [],
+      "amountLimit": []
+    }
+  ]
+}

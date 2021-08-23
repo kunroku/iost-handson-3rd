@@ -1,0 +1,22 @@
+{
+  "name": "iost-handson-3rd",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "todo-add": "node scripts/todo/add",
+    "todo-remove": "node scripts/todo/remove",
+    "todo-list": "node scripts/todo/list",
+    "compile": "node scripts/compile",
+    "deploy": "node scripts/deploy",
+    "update": "node scripts/update",
+    "ram": "node scripts/ram",
+    "gas": "node scripts/gas",
+    "signUp": "node scripts/signUp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kunroku/iost": "^2.0.0",
+    "@types/iost-contract": "^3.4.1"
+  }
+}
