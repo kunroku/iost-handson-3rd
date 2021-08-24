@@ -10,7 +10,7 @@ const kp = new IOST.KeyPair.Ed25519(IOST.Bs58.decode(secret_key));
 publisher.addKeyPair("active", kp);
 iost.setPublisher(publisher);
 
-const tx = iost.call(address, "getAllTask", []);
+const tx = iost.call(address, "getAllTasks", []);
 const handler = iost.signAndSend(tx);
 handler.listen({ irreversible: true });
 handler.onSuccess((res) => {
